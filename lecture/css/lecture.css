@@ -1,1 +1,20 @@
-.plot_summary {}
+/*
+
+
+RECIPE:
+selector {
+    property: value;
+}
+EXAMPLE:
+p {
+    color: red;
+    margin-left: 15px;
+    font-size: 90%
+}
+
+SELECTOR: any HTML element tag
+PROPERTY: the HTML property you want to change (font-size, color, font-family)
+VALUE: a possible setting for a property
+
+
+*/
