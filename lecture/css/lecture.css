@@ -2,19 +2,37 @@
 
 
 RECIPE:
-selector {
-    property: value;
-}
+    selector {
+        property: value;
+    }
 EXAMPLE:
-p {
-    color: red;
-    margin-left: 15px;
-    font-size: 90%
-}
+    p {
+        color: red;
+        margin-left: 15px;
+        font-size: 90%
+        font-family: 'brushscript';
+    }
 
 SELECTOR: any HTML element tag
 PROPERTY: the HTML property you want to change (font-size, color, font-family)
 VALUE: a possible setting for a property
 
-
 */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ID NUMBER */
+div #img-box {
+    float: right;
+}
+div #img-box {
+    max-width: 80%;
+}
+
+/* CLASS PERIOD */
+.highlight {
+    font-weight: bold;
+    background-color: yellow;
+}
