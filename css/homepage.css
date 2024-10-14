@@ -1,6 +1,89 @@
-/* this css file will only style the homepage of our site */
+/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#header {
+  word-spacing: 5px;
+  padding-left: 30px;
 }
+
+#name_header{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: normal;
+  display: flex; 
+  align-items: center;
+  padding-bottom: 0px;
+  /* padding-top: 20px; */
+}
+
+
+#titles {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 60px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#links {
+  padding-left: 45px;
+}
+
+#about_me_photos_padding {
+  padding-left: 65px;
+}
+
+#about_me_photos {
+  border-radius: 10px;
+  display: inline;
+  /* margin-left: 65px; */
+  width: 150px;
+  height: 150px;
+  opacity: 0.95;
+
+}
+
+#my_portrait_sketch {
+  border-radius: 100%;
+  /* display: block; */
+  margin-left: auto;
+  width: 105px;
+  height: 105px;
+  /* opacity: 0.8; */
+  padding-right: 10px;
+  padding-top: 0px;
+}
+
+p {
+  padding-left: 65px;
+  padding-right: 65px;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color:#EDE9E2;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  color: #4A5636;
+  background-color: #4A5636;
+  border: none;
+  height: 1px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A5636;
+  letter-spacing: 2.5px;
+}
+
