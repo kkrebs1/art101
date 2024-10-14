@@ -1,36 +1,74 @@
-/* we can use a single css file to style all the files in our wwebsite */
+/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
-  background-color: #50808E;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#header {
   word-spacing: 5px;
-  font-size: 200%;
+  padding-left: 30px;
 }
+
+#name_header{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+  display: flex; 
+  align-items: center;
+}
+
+
+#titles {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 60px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#links {
+  padding-left: 45px;
+}
+
+#my_portrait {
+  border-radius: 100%;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 130px;
+  height: 130px;
+  opacity: 0.8;
+}
+
+#my_portrait_sketch {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+  width: 130px;
+  height: 130px;
+  opacity: 0.8;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+p {
+  padding-left: 65px;
+  padding-right: 65px;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color:#EDE9E2;
+}
+a {
+  text-decoration: none;
+}
+
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A5636;
+  letter-spacing: 2.5px;
 }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
-}
