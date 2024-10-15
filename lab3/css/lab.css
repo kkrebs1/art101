@@ -7,3 +7,7 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  #results_photos {
+    height: 800px;
+  }
