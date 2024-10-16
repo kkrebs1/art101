@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Psuedocoding and Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,26 +23,44 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Psuedocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Get in the habit of thinking in terms of pseudocoding before jumping into coding.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>It was a little difficult understanding what the assignment was asking. It also took some work to write psuedocode for the hangman game
+						there are a lot of extra steps that you dont think about when playing.
+					</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
+				<h2>Results</h2>
+				<p> Javascript psuedocode for hangman game </p>
+				<hr>
+				<pre><code>
+// Take input_string from user1 
+//    Loop through input_string, increase count by 1 for every letter string contains (input_string = cat, count = 3)
+//        Print new string “_” for number in count (count = 3, new_string = “_ _ _”)
+// Loop until input_string = new_string
+//    Take input_char from user2
+//        Iterate through input_string
+//            If input_char is in input_string
+//                Update input_char at index in new_string
+//                Print new string (char = c, new_string = “c _ _”)
+//            If input_char is not in input_string
+//                Increase strike_count by 1
+//                Print updated hangman
+//                If strike_ count = 6
+//                    Print player lost message
+// Print player won message
+// Close program
+				</pre></code>
 
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-			</div>
+				<img src="./img/javascript_file.png" alt="">
+		</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
