@@ -8,8 +8,6 @@ function sort_name() {
   return sort_user_name;
 
 }
-
-console.log(sort_name());
 new_name = sort_name();
 document.writeln("Your sorted name: " + new_name);
 
