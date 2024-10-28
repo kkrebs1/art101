@@ -9,7 +9,8 @@ function sort_name() {
 
 }
 new_name = sort_name();
-document.writeln("Your sorted name: " + new_name);
+document.getElementById("sorted_output").innerText = "Your sorted name: " + new_name;
+
 
 
 
