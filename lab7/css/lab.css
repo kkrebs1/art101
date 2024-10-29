@@ -23,12 +23,12 @@
   font-size: 20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  
-  
 }
 
 .name {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   padding: 40px;
   font-size: 30px;
