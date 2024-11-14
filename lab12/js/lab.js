@@ -5,19 +5,19 @@ function sortingHat(str) {
   len = str.length;
   mod = len % 4;
   let houseArray = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
-  if (mod == 1) {
-    return houseArray[0];
-    
-  }
-  else if (mod == 2) {
-    return houseArray[1];
-  }
-  else if (mod == 3) {
-    return houseArray[2];
-  }
-  else if (mod == 4){
-    return houseArray[3];
-  }
+  return houseArray[mod];
+  // if (mod == 1) {
+  //   return houseArray[0];
+  // }
+  // else if (mod == 2) {
+  //   return houseArray[1];
+  // }
+  // else if (mod == 3) {
+  //   return houseArray[2];
+  // }
+  // else if (mod == 4){
+  //   return houseArray[3];
+  // }
 }
 
 var myButton = document.getElementById("button");
