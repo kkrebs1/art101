@@ -20,6 +20,15 @@ function sortingHat(str) {
   // }
 }
 
+$("button").click(function() {
+  // get the value in the #input text box, assign to a variable
+  var name = $("input").val()
+  //get house
+  var house = sortingHat(name);
+  //add house to output div
+  $("output").html("<h1>" + house + "</h1>");
+})
+
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
   var name = document.getElementById("input").value;
