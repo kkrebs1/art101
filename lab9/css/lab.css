@@ -8,7 +8,19 @@
 
   .special {
     background-color: lavender;
-    border: dotted 50px red;
+    border: dotted 10px red;
     color: pink;
     font-weight: bold;
+}
+
+.unique{
+  background-color: #8673A1;
+  border: dashed 10px #57A639;
+  color: white;
+}
+
+.groove {
+  background-color: #c459d3;
+  color: #fcfc7d;
+  border: groove 15px #be430f;
 }

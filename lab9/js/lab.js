@@ -12,6 +12,17 @@ $("#button-challenge").click(function(){
   $("#challenge").toggleClass("special");
 });
 
+// BUTTON FOR PROBLEMS
+$("#problems").append("<button id='button-problems'>Make Unique</button>");
+$("#button-problems").click(function(){
+  $("#problems").toggleClass("unique");
+})
+
+// BUTTOM FOR RESULTS
+$("#results").append("<button id='button-results'> Make Groovey </button>");
+$("#button-results").click(function(){
+  $("#results").toggleClass("groove");
+})
 
 function main() {
   console.log("Main function started.");
