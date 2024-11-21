@@ -1,21 +1,13 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - The purpose of this code is to link Lab 13 to Lab 9 using a button!
+// Author: Karyssa Krebs
+// Date: Nov 20 2024
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+$("#link_lab").click(function(){
+  window.location.href = "https://kkrebs1.github.io/art101/lab9/"
+})
 
 function main() {
   console.log("Main function started.");
-  // the code that makes everything happen
 }
 
-// let's get this party started
 main();
