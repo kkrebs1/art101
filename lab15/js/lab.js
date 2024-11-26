@@ -11,7 +11,7 @@ $.ajax({
     "fortune": "I do not remember ever having seen a sustained argument by an author which,\nstarting from philosophical premises likely to meet with general acceptance,\nreached the conclusion that a praiseworthy ordering of one's life is to\ndevote it to research in mathematics.\n\t\t-- Sir Edmund Whittaker, \"Scientific American\", Vol. 183"
   },
   // Whether this is a POST or GET request
-  type: "GET",
+  type: "GET /api/fortune/science",
   // The type of data we expect back
   dataType : "json",
   // What do we do when the api call is successful
