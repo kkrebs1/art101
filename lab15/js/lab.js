@@ -5,7 +5,7 @@
 // Using the core $.ajax() method
 $.ajax({
   // The URL for the request (from the api docs)
-  url: "http://www.yerkee.com/api/fortune",
+  url: "https://api.chucknorris.io/jokes/random",
   // The data to send (will be converted to a query string)
   data: {},
   // Whether this is a POST or GET request
@@ -17,7 +17,7 @@ $.ajax({
   success: function(data) {
       // do stuff
       console.log("Sucess!");
-      $("#output").append("<p>" + data.fortune + "</p>");
+      $("#output").append("<p>" + data.value + "</p>");
   },
   // What we do if the api call fails
   error: function (jqXHR, textStatus, errorThrown) { 
