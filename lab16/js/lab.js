@@ -13,7 +13,7 @@ let ajaxConfig = {
     //api_key: "pZ4AoYgNRFUers4BNlKdIwk56HibjAzvXI0YaaCi",
   },
   success: function(data) { // Success handler
-    console.log(data);
+    console.log("success!");
      $("#output").append("<h1>" + data.safe_title + "</h1>");
      //$("#output").append("<p>" + data.explanation + "</p");
      $("#output").append("<img src=" + data.img + ">");
