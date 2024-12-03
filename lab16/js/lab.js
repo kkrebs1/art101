@@ -10,12 +10,11 @@ let ajaxConfig = {
   method: "GET", // HTTP method
   contentType: "json", // Payload type
   data: { 
-    //api_key: "pZ4AoYgNRFUers4BNlKdIwk56HibjAzvXI0YaaCi",
   },
   success: function(data) { // Success handler
     console.log("success!");
+    console.log(data);
      $("#output").append("<h1>" + data.safe_title + "</h1>");
-     //$("#output").append("<p>" + data.explanation + "</p");
      $("#output").append("<img src=" + data.img + ">");
   }, 
   error: function(xhr, status, error) { // Error handler
@@ -23,10 +22,6 @@ let ajaxConfig = {
 
   } 
 };
-
-
-// Send the AJAX request
-$.ajax(ajaxConfig);
 
 // Send the AJAX request
 $.ajax(ajaxConfig);
