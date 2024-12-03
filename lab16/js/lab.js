@@ -16,6 +16,7 @@ let ajaxConfig = {
     console.log(data);
      $("#output").append("<h1>" + data.safe_title + "</h1>");
      $("#output").append("<img src=" + data.img + ">");
+     $("#output").append("<p>" + data.alt + "</p>");
   }, 
   error: function(xhr, status, error) { // Error handler
     console.error(error); 
